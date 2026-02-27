@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <link rel="stylesheet" href=site.css>
+  </head>
+  <body class="center">
+    <header>
+      <nav class="navbar">
+        <a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="projects.html">Projects</a>
+      </nav>
+      <h1>Jaden Yoder</h1>
+      <p>Computer nerd and musician<br><br>Computers have always fascinated me, especially retro computers. I would love to devleop something for an old computer sometime if the oppurtunity arrives.</p>
+      <img src="content/filler.jpg" alt="A photo of an Egyptian mummy head that looks suspiciously like Michael Jackson"> <!--If it isn't obvious, this is a placeholder image-->
+    <p>I saw this on a trip to Chicago, and I found it pretty funny</p>
+    </header>
+    <main>
+    <section>
+      <p>I'm not really sure what to put here, so here's a few games I enjoy:</p>
+      <ul>
+        <li>Tetris Attack/Panel De Pon/Puzzle League</li>
+        <li>Kirby 64: The Crystal Shards</li>
+        <li>Final Fantasy V</li>
+        <li>Sonic 3 & Knuckles</li>
+        <li>Rhythm Heaven</li>
+      </ul>
+    </section>
+    <form>
+      <h2 class="regularspacing">Contact Me</h2>
+      <label for="name">Name</label>
+      <br><input type="text" required id="name" minlength="2">
+      <br><label for="email">Email</label>
+      <br><input type="email" id="email" required>
+      <br><label for="topic">Topic</label>
+      <br><select id="topic">
+        <option value="Programming">Programming</option>
+        <option value="Game Development">Game Development</option>
+        <option value="Music">Music</option>
+        <option value="Other">Other</option>
+      </select>
+       <br>
+      <fieldset>
+        <label>Urgent?</label>
+        <br><label for="yes">Yes</label><input type="radio" id="yes" name="urgency" value="yes"> <label for="no">No</label><input type="radio" id="no" name="urgency" value="no">
+      </fieldset>
+      <label for="message">Message</label>
+      <br><input type="textarea" required id="message" minlength="10">
+      <br><br><input type="submit">
+    </form>
+    </main>
+    <footer class="soften"><br><br>&copy;2026 Jaden Yoder</footer>
+  </body>
+</html>
+<!--I was not really sure how the landmarks part works, but it seems like what I did works well enough. If I did not do it properly, just let me know.-->

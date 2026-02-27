@@ -1,0 +1,103 @@
+@font-face {
+    font-family: euxoi;
+    src: url("content/euxoi.ttf");
+
+}
+@font-face {
+    font-family: nokia;
+    src: url("content/nokiafc22.ttf");
+
+}
+:root {
+    --shadow-color: black;
+    --secondary-font-color: lightgrey;
+    --primary-background-color: #5600ac;
+    --side-header-shadow: 3px 6px var(--shadow-color);
+    --nav-width: max(188px, 60%);
+    --standard-spacing: 2em 0em 1em;
+    --smaller-spacing: 1em 0em .5em;
+    --smallest-spacing: .5em 0em .25em;
+    color:white;
+    background-color: var(--primary-background-color);
+    background-image: url("content/background.jpg");
+    background-size: contain;
+    font-family: euxoi;
+    font-size: larger;
+    text-shadow: 2px 4px var(--shadow-color);
+    line-height: 1.3em;
+}
+
+
+h1 {
+    font-family: nokia;
+    text-shadow: 4px 8px var(--shadow-color);
+    font-size: 3em;
+    line-height: 1.3em;
+}
+h2 {
+    font-family: nokia;
+    text-shadow: var(--side-header-shadow);
+}
+/*h3 {
+    font-family: nokia;
+    text-shadow: var(--side-header-shadow);
+    padding: var(--smaller-spacing);
+}*/
+
+header {
+    text-align: center;
+}
+
+select {
+    font-family: euxoi;
+    font-size: .75em;
+}
+
+img {
+    width: 60%;
+    height:auto;
+    box-shadow: 4px 8px var(--shadow-color);
+}
+
+iframe {
+    box-shadow: 4px 8px var(--shadow-color);
+}
+
+a {
+    color:white
+}
+
+fieldset {
+    border: none;
+    padding-left: 0;
+}
+
+footer {
+    text-align: center;
+}
+
+.navbar {
+    background-image: url("content/nav-background.jpg");
+    border-radius: 15px;
+    border: 2px solid white;
+    padding: 3px;
+    text-align: center;
+    box-shadow: 2px 4px var(--shadow-color);
+    margin-left: auto;
+    margin-right: auto;
+    width: var(--nav-width);
+}
+
+.center {
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto; 
+}
+
+.soften {
+    color: var(--secondary-font-color)
+}
+
+.regularspacing {
+    padding: var(--standard-spacing)
+}
